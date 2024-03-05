@@ -1,6 +1,0 @@
-apiVersion: v2
-version: v1.0.0
-name: cert-manager-issuers
-description: A Helm chart to deploy default cert-manager issuers.
-type: application
-icon: https://raw.githubusercontent.com/eschercloudai/helm-addons/main/icons/default.png

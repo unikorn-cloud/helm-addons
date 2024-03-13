@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   cert-manager-issuers:
   - apiVersion: v2
+    created: "2024-03-13T13:08:52.971183572Z"
+    description: A Helm chart to deploy default cert-manager issuers.
+    digest: 78d0e2336a6cc5206113023a8691920a56f1d7dcfcd0fa5750fe4478884fcf16
+    icon: https://raw.githubusercontent.com/unikorn-cloud/unikorn/main/icons/default.png
+    name: cert-manager-issuers
+    type: application
+    urls:
+    - https://github.com/unikorn-cloud/helm-addons/releases/download/cert-manager-issuers-v1.0.1/cert-manager-issuers-v1.0.1.tgz
+    version: v1.0.1
+  - apiVersion: v2
     created: "2024-03-05T15:41:45.57296191Z"
     description: A Helm chart to deploy default cert-manager issuers.
     digest: 04f1ea88a758270f8fd5bbd5c86ebbc5c5ba2c85a816ca4e1d07fdeca8bb9eb9
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/unikorn-cloud/helm-addons/releases/download/cert-manager-issuers-v1.0.0/cert-manager-issuers-v1.0.0.tgz
     version: v1.0.0
-generated: "2024-03-05T15:41:45.572967911Z"
+generated: "2024-03-13T13:08:52.97119828Z"

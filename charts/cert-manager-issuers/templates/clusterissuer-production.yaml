@@ -10,5 +10,7 @@ spec:
     solvers:
     - http01:
         ingress:
-          class: {{ .Values.ingressClass }}
+          {{- with $class := .Values.ingressClass }}
+          ingressClassName: {{ $class }}
+          {{- end }}
           serviceType: {{ .Values.serviceType }}

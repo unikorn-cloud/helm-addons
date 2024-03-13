@@ -1,5 +1,5 @@
 # Sets the ingress class of all issuers.
-ingressClass: nginx
+ingressClass: ~
 
 # serviceType defines the service type to use, may be NodePort or ClusterIP
 serviceType: ClusterIP
